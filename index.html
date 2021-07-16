@@ -1,0 +1,63 @@
+<!-- min : sec : ms -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/favicon.ico" sizes="180x180"/>
+    <title>JS - STOPWATCH</title>
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./query.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <main class="head">
+        <span class="animate__animated animate__shakeX"><img src="./assets/stopwatch-logo.png" alt=""></span>
+        <h1 class="project-name">Stop<span>Watch</span></h1>
+    </main>
+
+    <div class="container">
+    <div class="time-container">
+        <span class="hrs time dp-none">00 :&nbsp;</span>
+        <span class="min time">00 :&nbsp;</span>
+        <span class="sec time">00 :&nbsp;</span>
+        <span class="ms time">00 </span>
+    </div>
+    
+
+    <div class="laps-container">
+
+    </div>
+
+    </div>
+
+    
+    <div class="action" id="inputs-handler">
+        <div class="play-btn"></div>
+        
+        <div class="after-play dp-none">
+            <div class="flag">
+                <img src="./assets/flag.png" alt="flag">
+            </div>
+
+            <div class="pause-btn">
+            <div class="first stick"></div>
+            <div class="second stick"></div>
+            </div>
+        </div>
+
+        <div class="after-pause dp-none">
+            <div class="reset-btn"><div></div></div>
+            <div class="play-btn"></div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

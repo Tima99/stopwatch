@@ -1,0 +1,56 @@
+@media screen and (orientation : landscape){
+    main.head img{
+        width: 20vh;
+    }
+    .project-name{
+        font-size: 10vh;
+    }
+    .time-container .time{
+        font-size: 12vh;
+    }
+    .play-btn{
+        width: 8vh;
+        height: 8vh;
+    }
+
+    .stick{
+        width : 2vh;
+    }
+
+    .flag img{
+        width: 9vh;
+    }
+
+    .after-play, .after-pause{
+        width: 60%;
+    }
+
+    .reset-btn{
+        width: 8vh;
+        height: 8vh;
+    }
+    
+}
+
+@media screen and ( min-width : 1200px ) {
+
+    .laps-container{
+        position: absolute;
+        top: 1rem;
+        right: .5rem;
+        width: 22%;
+        height: 60vh;
+    }
+    .lap{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width : 400px){
+    .pause-btn{
+        height: 5vh;
+    }
+    .flag img{
+        height: 6vh;
+    }
+}
